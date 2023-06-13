@@ -1,0 +1,40 @@
+/******************Analysis SelectionSort Algorithms**************************/
+					
+					===timecomplix===
+
+		@pass1 		: n-1 comparison 	   ||
+		@pass2 		: n-2 comparison	   ||	+comparison
+		@pass3      : n-3 comparison  	   \/
+					.		.
+					.		.
+	    @pass(n-3)  : 3   comparison		/\
+	    @pass(n-2)  : 2   comparison		||	-comparison
+	    @pass(n-1)  : 1   comparison		||
+		
+/******************************************************************************/
+
+		total # of comparison = (n-1)+(n-2)+(n-3)+3+2+1
+		
+		= (n+n+n)/2
+		= n(n-1)/2
+		= ((n^2)-n)/2
+	Big O -->  O(n^2)
+	
+	@time complix of selection sort = O(n^2) 
+	
+/******************************************************************************/
+
+						===Data Complix===
+	@number of comparison = Not Data Sensetive 
+	
+	@number of movment(Swap) = Low Data movment
+	--> Low Data movment , one pass max 1 swap
+	
+	
+	@Input Data     = Inplace Sorting 
+	
+	@Stable Sorting = unstable
+/*****************************************************************************/
+
+
+	
